@@ -1,6 +1,20 @@
 @extends('layouts.app')
 @section('content')
+    <div class="go_up">
+        <a href="/">Go Up</a>
+    </div>
+
     <div>
+        <div class="contain">
+            <form action="{{ url('/search') }}" class="" type="get">
+                <h1 class="train_route">Trains Route</h1>
+                <div class="search">
+                    <input type="search" name="query" class="form-control search-box" placeholder="Search">
+                    <button type="submit" class="btn btn-default">Search</button>
+                </div>
+            </form>
+        </div>
+
         @foreach ($trains as $item)
             <div class="contain">
                 <table class="info" style="width: 100%">

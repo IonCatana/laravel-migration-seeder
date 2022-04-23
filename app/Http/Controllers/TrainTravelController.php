@@ -13,4 +13,10 @@ class TrainTravelController extends Controller
 
         return view('home', compact('trains'));
     }
+    function search()
+    {
+        $search_text = $_GET['query'];
+        $trains = Train::where('company', 'like', '%' . $search_text . '%')->get();
+        return view('search', compact('trains'));
+    }
 }

@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+.bg_color {
+  background-color: lightgray;
+  min-height: 100vh;  
+}
+
 table,
 th,
 td {
@@ -33,4 +38,24 @@ td {
     }
 
   }
+}
+
+.train_route {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin: 0;
+
+}
+
+.search {
+  display: flex;  
+  margin: 0 auto;
+}
+.go_up{
+  display: flex;
+  flex-direction: column;
+  
 }

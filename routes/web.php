@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'TrainTravelController@index');
+Route::get('/search', 'TrainTravelController@search');
