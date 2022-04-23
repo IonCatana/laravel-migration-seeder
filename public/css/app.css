@@ -5,7 +5,7 @@
 }
 
 .bg_color {
-  background-color: lightgray;
+  background-color: rgb(224, 224, 224);
   min-height: 100vh;
 }
 
@@ -50,8 +50,20 @@ td {
   margin: 0 auto;
 }
 
-.go_up {
-  display: flex;
-  flex-direction: column;
+.main_contain {
+  position: relative;
+}
+
+.main_contain .go_up {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+}
+
+.main_contain .go_up a {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(100, 97, 97);
+  padding: 10px;
 }
 

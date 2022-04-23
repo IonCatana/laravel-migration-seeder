@@ -1,10 +1,9 @@
 @extends('layouts.app')
 @section('content')
-    <div class="go_up">
-        <a href="/">Go Up</a>
-    </div>
-
-    <div>
+    <div class="main_contain">
+        <div class="go_up">
+            <a href="/"><i class="fas fa-chevron-circle-up"></i></a>
+        </div>
         <div class="contain">
             <form action="{{ url('/search') }}" class="" type="get">
                 <h1 class="train_route">Trains Route</h1>
