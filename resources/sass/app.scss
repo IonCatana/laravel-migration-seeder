@@ -1,1 +1,36 @@
 //
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.contain {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .info {
+    margin: 40px 0;
+
+    .company {
+      text-transform: uppercase;
+    }
+
+    th {
+      padding: 10px 5px;
+
+    }
+
+    td {
+      text-align: center;
+    }
+
+  }
+}

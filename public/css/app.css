@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.contain {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contain .info {
+  margin: 40px 0;
+}
+
+.contain .info .company {
+  text-transform: uppercase;
+}
+
+.contain .info th {
+  padding: 10px 5px;
+}
+
+.contain .info td {
+  text-align: center;
+}
+
